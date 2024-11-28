@@ -14,6 +14,7 @@ import About from './Components/About.jsx';
 import Cards from './Components/Cards.jsx';
 import CertificateButton from './Components/CertificateButton.jsx';
 import MarvelReportButton from './Components/MarvelReportButton.jsx';
+import CertificatePage from './Pages/CertificatePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +29,12 @@ const router = createBrowserRouter([
       { path: 'about', element: <AboutPage /> },
       { path: 'topics/0', element: <Topics0 /> },
       { path: 'topics/1', 
-        element: <><Topics1 /> <CertificateButton/></>
-         },
+        element: <Topics1 />,
+      },
+      {
+        path:'certificatesPage',
+        element : <CertificatePage/>,
+      },
       { path: 'topics/2', element: <><Topics2 /> <MarvelReportButton/></> },
       { path: 'topics/3', element: <Topics3 /> },
       { path: 'topics/4', element: <Topics4 /> },

@@ -105,7 +105,7 @@ function WebsiteData() {
 
             <li>
               <a href="https://apps.microsoft.com/detail/9nht9rb2f4hd?hl=en-US&gl=US" className="block" rel="noopener noreferrer">
-              <button className="hover:bg-yellow-200 p-2 transition duration-300 rounded-lg">Backgound patterns using Tailwind CSS</button>
+              <button className="hover:bg-yellow-200 p-2 transition duration-300 rounded-lg">Background patterns using Tailwind CSS</button>
               </a>
             </li>
 
