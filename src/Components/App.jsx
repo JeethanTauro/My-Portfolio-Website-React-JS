@@ -1,10 +1,9 @@
-import React, { useRef } from 'react';
+import React, { createContext, useRef, useState } from 'react';
 import Navigation from './Navigation';
 import Foot from './Foot'; // Footer Component
-import Cards from './Cards';
-import About from './About';
 import { Outlet } from 'react-router-dom';
 import ScrollToTop from './Scrolltotop.jsx';
+
 
 function App() {
   const contactRef = useRef(null);
@@ -17,17 +16,15 @@ function App() {
     });
   };
 
-  return (
-    <div>
+return (
+    
+    <div >
       <ScrollToTop />
-      <Navigation 
-        onContactsClick={onContactsClick} 
-      />
+      <Navigation onContactsClick={onContactsClick}/>
       <Outlet />
-    <Foot ref={contactRef} />
-
-      
+      <Foot ref={contactRef} />
     </div>
+
   );
 }
 
