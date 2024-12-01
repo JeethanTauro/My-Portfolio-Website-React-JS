@@ -12,7 +12,6 @@ import Topics3 from './Pages/Topics3.jsx';
 import Topics4 from './Pages/Topics4.jsx';
 import About from './Components/About.jsx';
 import Cards from './Components/Cards.jsx';
-import CertificateButton from './Components/CertificateButton.jsx';
 import MarvelReportButton from './Components/MarvelReportButton.jsx';
 import CertificatePage from './Pages/CertificatePage.jsx';
 
