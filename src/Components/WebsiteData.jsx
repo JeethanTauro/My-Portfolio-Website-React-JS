@@ -111,7 +111,7 @@ function WebsiteData() {
 
             <li>
               <a href="https://chatgpt.com/" rel="noopener noreferrer">
-              <button className="hover:bg-yellow-200 p-2 transition duration-300 rounded-lg">Chatgpt for debugging and code snippets (ofcourse)</button>
+              <button className="hover:bg-yellow-200 p-2 transition duration-300 rounded-lg">Chatgpt for debugging and code snippets</button>
               </a>
             </li>
           </ul>
