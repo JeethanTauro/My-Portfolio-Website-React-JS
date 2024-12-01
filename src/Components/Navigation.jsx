@@ -35,9 +35,7 @@ function Navigation({ onContactsClick }) {
               className="w-full h-full object-cover"
             />
           </div>
-          <div>
-            <h2 className='text-white'>Jeethan Shan Tauro</h2>
-          </div>
+          
         </div>
 
         {/* Navigation Buttons */}
