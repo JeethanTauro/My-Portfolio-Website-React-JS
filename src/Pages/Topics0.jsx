@@ -4,9 +4,9 @@ import React from 'react'
 function Topics0() {
   return (
     <>
-      <div className="flex justify-center items-center min-h-screen flex-col mt-8">
+      <div className="flex justify-center items-center min-h-screen flex-col mt-20">
         <img src="/images/interests.png" alt="" className='mb-4' />
-        <div className="backdrop-blur-md p-8 rounded-lg shadow-lg w-3/4 md:w-1/2">
+        <div className="backdrop-blur-md p-8 rounded-lg shadow-lg w-full lg:w-2/3 ">
          <img src="/images/pin.png" alt="" className='w-8 h-8'/>
           <h1 className='font-bold'>Hey! So this is about my hobbies and my interests</h1>
           <br />
