@@ -3,17 +3,17 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './Components/App.jsx';
-import AboutPage from './Pages/AboutPage.jsx';
-import ErrorPage from './Pages/ErrorPage.jsx';
-import Topics0 from './Pages/Topics0.jsx';
-import Topics1 from './Pages/Topics1.jsx';
-import Topics2 from './Pages/Topics2.jsx';
-import Topics3 from './Pages/Topics3.jsx';
-import Topics4 from './Pages/Topics4.jsx';
-import About from './Components/About.jsx';
-import Cards from './Components/Cards.jsx';
-import MarvelReportButton from './Components/MarvelReportButton.jsx';
-import CertificatePage from './Pages/CertificatePage.jsx';
+import AboutPage from './Pages/AboutPage';
+import ErrorPage from './Pages/ErrorPage';
+import Topics0 from './Pages/Topics0';
+import Topics1 from './Pages/Topics1';
+import Topics2 from './Pages/Topics2';
+import Topics3 from './Pages/Topics3';
+import Topics4 from './Pages/Topics4';
+import About from './Components/About';
+import Cards from './Components/Cards';
+import MarvelReportButton from './Components/MarvelReportButton';
+import CertificatePage from './Pages/CertificatePage';
 
 const router = createBrowserRouter([
   {

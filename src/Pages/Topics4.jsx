@@ -1,6 +1,5 @@
 import React from 'react'
-import Navigation from '../Components/Navigation'
-import Foot from '../Components/Foot'
+
 
 
 function Topics4() {

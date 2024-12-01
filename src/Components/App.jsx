@@ -2,7 +2,7 @@ import React, {useRef } from 'react';
 import Navigation from './Navigation';
 import Foot from './Foot'; // Footer Component
 import { Outlet } from 'react-router-dom';
-import ScrollToTop from './ScrollTotop.jsx';
+import ScrollToTop from './ScrollTotop';
 
 
 function App() {
