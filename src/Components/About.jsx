@@ -5,7 +5,7 @@ function About() {
   
     <>
         <div className='w-full h-4/5 flex justify-center items-center mt-12'>
-            <div className=' w-1/2 m-8 '>
+            <div className=' w-1/2 m-8 text-center'>
 
                 <p className=' text-md leading-7'> 
                       
