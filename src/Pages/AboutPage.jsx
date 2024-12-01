@@ -18,7 +18,7 @@ function AboutPage() {
       </div>
     </div>
     <div className='flex justify-center'>
-      <a href="/Resume/JeethanResume.pdf" target='_blank'>
+      <a href="public/JeethanResume.pdf" target='_blank'>
       <button className='border-solid border-2 border-black p-2 mt-4 mb-4 hover:bg-yellow-200 rounded-lg transistion duration-300'>My Resume</button>
       </a>
     </div>
